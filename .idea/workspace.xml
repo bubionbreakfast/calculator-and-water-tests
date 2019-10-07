@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98b9d73c-1c82-4c82-9923-b09bd72351eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WaterBottle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestWaterBottle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPrinter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,7 +23,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
+            <state relative-caret-position="354">
               <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
               <folding>
                 <element signature="e#373#374#0" expanded="true" />
@@ -40,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestWaterBottle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+            <state relative-caret-position="-117">
+              <caret selection-end-line="3" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#96#97#0" expanded="true" />
@@ -55,7 +54,23 @@
                 <element signature="e#424#425#0" expanded="true" />
                 <element signature="e#489#490#0" expanded="true" />
                 <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
                 <element signature="e#611#612#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Printer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="16" column="94" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="94" />
+              <folding>
+                <element signature="e#105#106#0" expanded="true" />
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/WaterBottle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
+            <state relative-caret-position="345">
               <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
               <folding>
                 <element signature="e#85#86#0" expanded="true" />
@@ -75,6 +90,24 @@
                 <element signature="e#261#262#0" expanded="true" />
                 <element signature="e#287#288#0" expanded="true" />
                 <element signature="e#335#336#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestPrinter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,6 +141,8 @@
         <option value="$PROJECT_DIR$/src/test/java/TestCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/WaterBottle.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestWaterBottle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Printer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestPrinter.java" />
       </list>
     </option>
   </component>
@@ -190,21 +225,42 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestWaterBottle.fillBottle">
-    <configuration name="TestWaterBottle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestPrinter.printMoreSheetsThanAreInThePrinter">
+    <configuration name="TestPrinter.getSheetsRemaining" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testing_day_01" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestWaterBottle" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="TestPrinter" />
+      <option name="METHOD_NAME" value="getSheetsRemaining" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWaterBottle.emptyBottle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPrinter.print" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testing_day_01" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestWaterBottle" />
-      <option name="METHOD_NAME" value="emptyBottle" />
+      <option name="MAIN_CLASS_NAME" value="TestPrinter" />
+      <option name="METHOD_NAME" value="print" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPrinter.print50SheetsWhen50Remain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing_day_01" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestPrinter" />
+      <option name="METHOD_NAME" value="print50SheetsWhen50Remain" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPrinter.printMoreSheetsThanAreInThePrinter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing_day_01" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestPrinter" />
+      <option name="METHOD_NAME" value="printMoreSheetsThanAreInThePrinter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -220,33 +276,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWaterBottle.getVolume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testing_day_01" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestWaterBottle" />
-      <option name="METHOD_NAME" value="getVolume" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestWaterBottle.hasDrink" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testing_day_01" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestWaterBottle" />
-      <option name="METHOD_NAME" value="hasDrink" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestPrinter.printMoreSheetsThanAreInThePrinter" />
+        <item itemvalue="JUnit.TestPrinter.print50SheetsWhen50Remain" />
+        <item itemvalue="JUnit.TestPrinter.print" />
+        <item itemvalue="JUnit.TestPrinter.getSheetsRemaining" />
         <item itemvalue="JUnit.TestWaterBottle.fillBottle" />
-        <item itemvalue="JUnit.TestWaterBottle.emptyBottle" />
-        <item itemvalue="JUnit.TestWaterBottle.hasDrink" />
-        <item itemvalue="JUnit.TestWaterBottle" />
-        <item itemvalue="JUnit.TestWaterBottle.getVolume" />
       </list>
     </recent_temporary>
   </component>
@@ -264,24 +300,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCalculator_canSubtract - 2019.10.07 at 16h 55m 48s.xml">
-      <configuration name="TestCalculator.canSubtract" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCalculator_canMultiply - 2019.10.07 at 16h 57m 34s.xml">
-      <configuration name="TestCalculator.canMultiply" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCalculator_canDivide - 2019.10.07 at 16h 59m 30s.xml">
-      <configuration name="TestCalculator.canDivide" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCalculator_canDivide - 2019.10.07 at 17h 00m 32s.xml">
-      <configuration name="TestCalculator.canDivide" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCalculator_canDivide - 2019.10.07 at 17h 00m 36s.xml">
-      <configuration name="TestCalculator.canDivide" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCalculator - 2019.10.07 at 17h 00m 42s.xml">
-      <configuration name="TestCalculator" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestWaterBottle_getVolume - 2019.10.07 at 17h 39m 42s.xml">
       <configuration name="TestWaterBottle.getVolume" configurationId="JUnit" />
     </history-entry>
@@ -294,6 +312,24 @@
     <history-entry file="TestWaterBottle_emptyBottle - 2019.10.07 at 18h 50m 59s.xml">
       <configuration name="TestWaterBottle.emptyBottle" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestWaterBottle_fillBottle - 2019.10.07 at 18h 57m 39s.xml">
+      <configuration name="TestWaterBottle.fillBottle" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPrinter_getSheetsRemaining - 2019.10.07 at 19h 06m 24s.xml">
+      <configuration name="TestPrinter.getSheetsRemaining" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPrinter_print - 2019.10.07 at 19h 13m 16s.xml">
+      <configuration name="TestPrinter.print" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPrinter_print - 2019.10.07 at 19h 23m 55s.xml">
+      <configuration name="TestPrinter.print" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPrinter_print50SheetsWhen50Remain - 2019.10.07 at 19h 24m 57s.xml">
+      <configuration name="TestPrinter.print50SheetsWhen50Remain" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPrinter_printMoreSheetsThanAreInThePrinter - 2019.10.07 at 19h 26m 34s.xml">
+      <configuration name="TestPrinter.printMoreSheetsThanAreInThePrinter" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -304,7 +340,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.082247555" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24185668" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -331,9 +367,16 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
+        <state relative-caret-position="354">
           <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
           <folding>
             <element signature="e#373#374#0" expanded="true" />
@@ -348,16 +391,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestWaterBottle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="5" />
+        <state relative-caret-position="-117">
+          <caret selection-end-line="3" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#96#97#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/WaterBottle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
+        <state relative-caret-position="345">
           <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding>
             <element signature="e#85#86#0" expanded="true" />
@@ -372,21 +428,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestWaterBottle.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestPrinter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        <state relative-caret-position="283">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#96#97#0" expanded="true" />
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Printer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="16" column="94" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="94" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
           </folding>
         </state>
       </provider>
