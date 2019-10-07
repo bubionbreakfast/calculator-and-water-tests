@@ -9,7 +9,18 @@ public class TestPrinter {
 
     @Before
     public void before(){
-        printer = new Printer(100);
+        printer = new Printer(100, 50);
+    }
+
+    @Test
+    public void getToner(){
+        assertEquals(50, printer.getToner());
+    }
+
+    @Test
+    public void getTonerRemaining(){
+
+        assertEquals(25, printer.getToner());
     }
 
     @Test
