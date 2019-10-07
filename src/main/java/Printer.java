@@ -11,11 +11,12 @@ public class Printer {
     }
 
     public int print(Number pages, Number copies){
-        if (this.sheetsRemaining > pages.intValue() - copies.intValue()) {
+        if (this.sheetsRemaining >= pages.intValue() + copies.intValue()) {
             return this.sheetsRemaining - pages.intValue() - copies.intValue();
         } else {
-            throw new IllegalStateException("Cannot change health, character is dead already.");
+            return sheetsRemaining;
         }
+
     }
 
 }

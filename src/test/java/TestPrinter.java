@@ -24,7 +24,7 @@ public class TestPrinter {
 
     @Test
     public void printMoreSheetsThanAreInThePrinter(){
-        assertEquals("Cannot change health, character is dead already.", printer.print(50,51));
+        assertEquals(100, printer.print(50,51));
     }
 
 }
